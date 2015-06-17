@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F12F1C1D1B31342500427938 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12F1C1C1B31342500427938 /* AppDelegate.swift */; };
+		F12F1C201B31342500427938 /* YABA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F12F1C1E1B31342500427938 /* YABA.xcdatamodeld */; };
+		F12F1C221B31342500427938 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12F1C211B31342500427938 /* ViewController.swift */; };
+		F12F1C251B31342500427938 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12F1C231B31342500427938 /* Main.storyboard */; };
+		F12F1C271B31342500427938 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12F1C261B31342500427938 /* Images.xcassets */; };
+		F12F1C2A1B31342500427938 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12F1C281B31342500427938 /* LaunchScreen.xib */; };
+		F12F1C361B31342500427938 /* YABATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12F1C351B31342500427938 /* YABATests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F12F1C301B31342500427938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F12F1C0F1B31342500427938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F12F1C161B31342500427938;
+			remoteInfo = YABA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F12F1C171B31342500427938 /* YABA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YABA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12F1C1B1B31342500427938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F12F1C1C1B31342500427938 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F12F1C1F1B31342500427938 /* YABA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YABA.xcdatamodel; sourceTree = "<group>"; };
+		F12F1C211B31342500427938 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F12F1C241B31342500427938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F12F1C261B31342500427938 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F12F1C291B31342500427938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F12F1C2F1B31342500427938 /* YABATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YABATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12F1C341B31342500427938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F12F1C351B31342500427938 /* YABATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YABATests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F12F1C141B31342500427938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12F1C2C1B31342500427938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F12F1C0E1B31342500427938 = {
+			isa = PBXGroup;
+			children = (
+				F12F1C191B31342500427938 /* YABA */,
+				F12F1C321B31342500427938 /* YABATests */,
+				F12F1C181B31342500427938 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F12F1C181B31342500427938 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F12F1C171B31342500427938 /* YABA.app */,
+				F12F1C2F1B31342500427938 /* YABATests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F12F1C191B31342500427938 /* YABA */ = {
+			isa = PBXGroup;
+			children = (
+				F12F1C1C1B31342500427938 /* AppDelegate.swift */,
+				F12F1C211B31342500427938 /* ViewController.swift */,
+				F12F1C231B31342500427938 /* Main.storyboard */,
+				F12F1C261B31342500427938 /* Images.xcassets */,
+				F12F1C281B31342500427938 /* LaunchScreen.xib */,
+				F12F1C1E1B31342500427938 /* YABA.xcdatamodeld */,
+				F12F1C1A1B31342500427938 /* Supporting Files */,
+			);
+			path = YABA;
+			sourceTree = "<group>";
+		};
+		F12F1C1A1B31342500427938 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F12F1C1B1B31342500427938 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F12F1C321B31342500427938 /* YABATests */ = {
+			isa = PBXGroup;
+			children = (
+				F12F1C351B31342500427938 /* YABATests.swift */,
+				F12F1C331B31342500427938 /* Supporting Files */,
+			);
+			path = YABATests;
+			sourceTree = "<group>";
+		};
+		F12F1C331B31342500427938 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F12F1C341B31342500427938 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F12F1C161B31342500427938 /* YABA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12F1C391B31342500427938 /* Build configuration list for PBXNativeTarget "YABA" */;
+			buildPhases = (
+				F12F1C131B31342500427938 /* Sources */,
+				F12F1C141B31342500427938 /* Frameworks */,
+				F12F1C151B31342500427938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YABA;
+			productName = YABA;
+			productReference = F12F1C171B31342500427938 /* YABA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F12F1C2E1B31342500427938 /* YABATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12F1C3C1B31342500427938 /* Build configuration list for PBXNativeTarget "YABATests" */;
+			buildPhases = (
+				F12F1C2B1B31342500427938 /* Sources */,
+				F12F1C2C1B31342500427938 /* Frameworks */,
+				F12F1C2D1B31342500427938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F12F1C311B31342500427938 /* PBXTargetDependency */,
+			);
+			name = YABATests;
+			productName = YABATests;
+			productReference = F12F1C2F1B31342500427938 /* YABATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F12F1C0F1B31342500427938 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Frederic Mokren";
+				TargetAttributes = {
+					F12F1C161B31342500427938 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					F12F1C2E1B31342500427938 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = F12F1C161B31342500427938;
+					};
+				};
+			};
+			buildConfigurationList = F12F1C121B31342500427938 /* Build configuration list for PBXProject "YABA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F12F1C0E1B31342500427938;
+			productRefGroup = F12F1C181B31342500427938 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F12F1C161B31342500427938 /* YABA */,
+				F12F1C2E1B31342500427938 /* YABATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F12F1C151B31342500427938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12F1C251B31342500427938 /* Main.storyboard in Resources */,
+				F12F1C2A1B31342500427938 /* LaunchScreen.xib in Resources */,
+				F12F1C271B31342500427938 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12F1C2D1B31342500427938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F12F1C131B31342500427938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12F1C221B31342500427938 /* ViewController.swift in Sources */,
+				F12F1C201B31342500427938 /* YABA.xcdatamodeld in Sources */,
+				F12F1C1D1B31342500427938 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12F1C2B1B31342500427938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12F1C361B31342500427938 /* YABATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F12F1C311B31342500427938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F12F1C161B31342500427938 /* YABA */;
+			targetProxy = F12F1C301B31342500427938 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F12F1C231B31342500427938 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F12F1C241B31342500427938 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F12F1C281B31342500427938 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F12F1C291B31342500427938 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F12F1C371B31342500427938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F12F1C381B31342500427938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F12F1C3A1B31342500427938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YABA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F12F1C3B1B31342500427938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YABA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F12F1C3D1B31342500427938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YABATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YABA.app/YABA";
+			};
+			name = Debug;
+		};
+		F12F1C3E1B31342500427938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YABATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YABA.app/YABA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F12F1C121B31342500427938 /* Build configuration list for PBXProject "YABA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12F1C371B31342500427938 /* Debug */,
+				F12F1C381B31342500427938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F12F1C391B31342500427938 /* Build configuration list for PBXNativeTarget "YABA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12F1C3A1B31342500427938 /* Debug */,
+				F12F1C3B1B31342500427938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F12F1C3C1B31342500427938 /* Build configuration list for PBXNativeTarget "YABATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12F1C3D1B31342500427938 /* Debug */,
+				F12F1C3E1B31342500427938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F12F1C1E1B31342500427938 /* YABA.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F12F1C1F1B31342500427938 /* YABA.xcdatamodel */,
+			);
+			currentVersion = F12F1C1F1B31342500427938 /* YABA.xcdatamodel */;
+			path = YABA.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F12F1C0F1B31342500427938 /* Project object */;
+}

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="YABA" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,77 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ndJ-jJ-trK">
+                                <rect key="frame" x="5" y="28" width="533" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="500" id="fEL-Z2-ZtR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="fEL-Z2-ZtR"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gCV-Pl-8PC">
+                                <rect key="frame" x="0.0" y="66" width="600" height="534"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="534" id="Tcw-tc-Wfp"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Tcw-tc-Wfp"/>
+                                    </mask>
+                                </variation>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jEH-gH-Vax">
+                                <rect key="frame" x="546" y="27" width="30" height="30"/>
+                                <state key="normal" title="Go">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapGo" destination="BYZ-38-t0r" eventType="touchUpInside" id="XLF-Or-41b"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="gCV-Pl-8PC" secondAttribute="trailing" id="2am-ZG-oCn"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gCV-Pl-8PC" secondAttribute="bottom" id="2gU-Jf-khS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gCV-Pl-8PC" secondAttribute="bottom" id="6rF-Ie-GmM"/>
+                            <constraint firstItem="gCV-Pl-8PC" firstAttribute="top" secondItem="ndJ-jJ-trK" secondAttribute="bottom" constant="8" id="8xs-WQ-BkG"/>
+                            <constraint firstItem="gCV-Pl-8PC" firstAttribute="top" secondItem="ndJ-jJ-trK" secondAttribute="bottom" constant="8" id="CFJ-BI-6xW"/>
+                            <constraint firstItem="ndJ-jJ-trK" firstAttribute="baseline" secondItem="jEH-gH-Vax" secondAttribute="baseline" id="IPN-hy-cmn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jEH-gH-Vax" secondAttribute="trailing" constant="8" id="JTe-KM-mJN"/>
+                            <constraint firstItem="ndJ-jJ-trK" firstAttribute="leading" secondItem="gCV-Pl-8PC" secondAttribute="leading" constant="5" id="Kq5-Wu-fcv"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gCV-Pl-8PC" secondAttribute="bottom" id="PaS-mZ-EW4"/>
+                            <constraint firstItem="gCV-Pl-8PC" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="ew4-eo-JrD"/>
+                            <constraint firstItem="jEH-gH-Vax" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="7" id="iiP-AV-3V2"/>
+                            <constraint firstItem="gCV-Pl-8PC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jTC-Cz-nMT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ndJ-jJ-trK" secondAttribute="trailing" constant="46" id="uI2-8g-7yO"/>
+                            <constraint firstItem="jEH-gH-Vax" firstAttribute="trailing" secondItem="ndJ-jJ-trK" secondAttribute="trailing" constant="24" id="zkP-jq-XYC"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="8xs-WQ-BkG"/>
+                                <exclude reference="zkP-jq-XYC"/>
+                                <exclude reference="2gU-Jf-khS"/>
+                                <exclude reference="6rF-Ie-GmM"/>
+                                <exclude reference="PaS-mZ-EW4"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="searchText" destination="ndJ-jJ-trK" id="biY-jp-up8"/>
+                        <outlet property="webView" destination="gCV-Pl-8PC" id="0jh-9V-cn7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="218" y="302"/>
         </scene>
     </scenes>
 </document>

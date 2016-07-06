@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6D2D3111B780FC800608854 /* LayoutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6D2D3101B780FC800608854 /* LayoutView.xib */; };
+		C6E7735B1B8002CD00564840 /* Globe.png in Resources */ = {isa = PBXBuildFile; fileRef = C6E7735A1B8002CD00564840 /* Globe.png */; };
 		F12F1C1D1B31342500427938 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12F1C1C1B31342500427938 /* AppDelegate.swift */; };
 		F12F1C201B31342500427938 /* YABA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F12F1C1E1B31342500427938 /* YABA.xcdatamodeld */; };
 		F12F1C221B31342500427938 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12F1C211B31342500427938 /* ViewController.swift */; };
@@ -14,6 +16,8 @@
 		F12F1C271B31342500427938 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12F1C261B31342500427938 /* Images.xcassets */; };
 		F12F1C2A1B31342500427938 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12F1C281B31342500427938 /* LaunchScreen.xib */; };
 		F12F1C361B31342500427938 /* YABATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12F1C351B31342500427938 /* YABATests.swift */; };
+		F1BF3E351B31CB76005D41D4 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BF3E341B31CB76005D41D4 /* KeyboardViewController.swift */; };
+		F1BF3E381B31CB76005D41D4 /* Bible Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F1BF3E301B31CB76005D41D4 /* Bible Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,9 +28,32 @@
 			remoteGlobalIDString = F12F1C161B31342500427938;
 			remoteInfo = YABA;
 		};
+		F1BF3E361B31CB76005D41D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F12F1C0F1B31342500427938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1BF3E2F1B31CB76005D41D4;
+			remoteInfo = "Bible Keyboard";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F1BF3E3C1B31CB76005D41D4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F1BF3E381B31CB76005D41D4 /* Bible Keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		C6D2D3101B780FC800608854 /* LayoutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayoutView.xib; sourceTree = "<group>"; };
+		C6E7735A1B8002CD00564840 /* Globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Globe.png; sourceTree = "<group>"; };
 		F12F1C171B31342500427938 /* YABA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YABA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12F1C1B1B31342500427938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F12F1C1C1B31342500427938 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +65,9 @@
 		F12F1C2F1B31342500427938 /* YABATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YABATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12F1C341B31342500427938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F12F1C351B31342500427938 /* YABATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YABATests.swift; sourceTree = "<group>"; };
+		F1BF3E301B31CB76005D41D4 /* Bible Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Bible Keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BF3E331B31CB76005D41D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1BF3E341B31CB76005D41D4 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +85,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F1BF3E2D1B31CB76005D41D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +100,7 @@
 			children = (
 				F12F1C191B31342500427938 /* YABA */,
 				F12F1C321B31342500427938 /* YABATests */,
+				F1BF3E311B31CB76005D41D4 /* Bible Keyboard */,
 				F12F1C181B31342500427938 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +110,7 @@
 			children = (
 				F12F1C171B31342500427938 /* YABA.app */,
 				F12F1C2F1B31342500427938 /* YABATests.xctest */,
+				F1BF3E301B31CB76005D41D4 /* Bible Keyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +154,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F1BF3E311B31CB76005D41D4 /* Bible Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C6E7735A1B8002CD00564840 /* Globe.png */,
+				F1BF3E341B31CB76005D41D4 /* KeyboardViewController.swift */,
+				C6D2D3101B780FC800608854 /* LayoutView.xib */,
+				F1BF3E321B31CB76005D41D4 /* Supporting Files */,
+			);
+			path = "Bible Keyboard";
+			sourceTree = "<group>";
+		};
+		F1BF3E321B31CB76005D41D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1BF3E331B31CB76005D41D4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,10 +183,12 @@
 				F12F1C131B31342500427938 /* Sources */,
 				F12F1C141B31342500427938 /* Frameworks */,
 				F12F1C151B31342500427938 /* Resources */,
+				F1BF3E3C1B31CB76005D41D4 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F1BF3E371B31CB76005D41D4 /* PBXTargetDependency */,
 			);
 			name = YABA;
 			productName = YABA;
@@ -153,12 +213,31 @@
 			productReference = F12F1C2F1B31342500427938 /* YABATests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F1BF3E2F1B31CB76005D41D4 /* Bible Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1BF3E3B1B31CB76005D41D4 /* Build configuration list for PBXNativeTarget "Bible Keyboard" */;
+			buildPhases = (
+				F1BF3E2C1B31CB76005D41D4 /* Sources */,
+				F1BF3E2D1B31CB76005D41D4 /* Frameworks */,
+				F1BF3E2E1B31CB76005D41D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bible Keyboard";
+			productName = "Bible Keyboard";
+			productReference = F1BF3E301B31CB76005D41D4 /* Bible Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F12F1C0F1B31342500427938 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Frederic Mokren";
 				TargetAttributes = {
@@ -168,6 +247,9 @@
 					F12F1C2E1B31342500427938 = {
 						CreatedOnToolsVersion = 6.3.1;
 						TestTargetID = F12F1C161B31342500427938;
+					};
+					F1BF3E2F1B31CB76005D41D4 = {
+						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
 			};
@@ -186,6 +268,7 @@
 			targets = (
 				F12F1C161B31342500427938 /* YABA */,
 				F12F1C2E1B31342500427938 /* YABATests */,
+				F1BF3E2F1B31CB76005D41D4 /* Bible Keyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +288,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BF3E2E1B31CB76005D41D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6D2D3111B780FC800608854 /* LayoutView.xib in Resources */,
+				C6E7735B1B8002CD00564840 /* Globe.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +321,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F1BF3E2C1B31CB76005D41D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BF3E351B31CB76005D41D4 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +336,11 @@
 			isa = PBXTargetDependency;
 			target = F12F1C161B31342500427938 /* YABA */;
 			targetProxy = F12F1C301B31342500427938 /* PBXContainerItemProxy */;
+		};
+		F1BF3E371B31CB76005D41D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1BF3E2F1B31CB76005D41D4 /* Bible Keyboard */;
+			targetProxy = F1BF3E361B31CB76005D41D4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -396,6 +501,30 @@
 			};
 			name = Release;
 		};
+		F1BF3E391B31CB76005D41D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bible Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F1BF3E3A1B31CB76005D41D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bible Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,6 +544,7 @@
 				F12F1C3B1B31342500427938 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F12F1C3C1B31342500427938 /* Build configuration list for PBXNativeTarget "YABATests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +553,16 @@
 				F12F1C3E1B31342500427938 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1BF3E3B1B31CB76005D41D4 /* Build configuration list for PBXNativeTarget "Bible Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BF3E391B31CB76005D41D4 /* Debug */,
+				F1BF3E3A1B31CB76005D41D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
